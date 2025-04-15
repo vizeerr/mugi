@@ -2,15 +2,7 @@ import { Bebas_Neue, Geist, Geist_Mono, Montserrat, Pirata_One } from "next/font
 import "./globals.css";
 import TopNavBar from "@/components/TopNavBar/TopNavBar";
 import localFont from 'next/font/local'
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+;
 
 const pirata = Pirata_One({
   variable:"--font-pirata",
@@ -45,11 +37,21 @@ export const xurkit = localFont({
   variable: '--font-xurkit',
   display: 'swap',
 })
+
+export const quantum = localFont({
+  src:'../fonts/quantum.otf',
+  variable: '--font-quantum',
+  display: 'swap',
+})
+
+
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${xurkit.variable} ${pirata.variable} ${bebasneue.variable} ${montserrat.variable} ${geistMono.variable} antialiased  h-screen overflow-hidden flex flex-col`}
+        className={`${xurkit.variable} ${pirata.variable} ${bebasneue.variable} ${montserrat.variable} ${quantum.variable} antialiased  h-screen overflow-hidden flex flex-col`}
       >
         <TopNavBar/>
         <main className="flex-1 overflow-auto">
