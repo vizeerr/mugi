@@ -3,7 +3,7 @@ import BorderBox from "./BorderBox";
 import ethwhite from "@/assets/ethwhite.png";
 import Image from "next/image";
 import RadialTimer from "./client/RadialTimer";
-import thumb from "@/assets/thumb.png";
+import thumb from "@/assets/individualgif.gif";
 import pfp from "@/assets/pfp.png";
 import unicorn from "@/assets/unicorn.png";
 import arrowprim from "@/assets/arrowprim.png"

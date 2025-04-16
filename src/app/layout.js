@@ -44,14 +44,23 @@ export const quantum = localFont({
   display: 'swap',
 })
 
+export const baron = localFont({
+  src:'../fonts/baron.otf',
+  variable: '--font-baron',
+  display: 'swap',
+})
 
-
+export const bad = localFont({
+  src:'../fonts/bad.ttf',
+  variable: '--font-bad',
+  display: 'swap',
+})
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${xurkit.variable} ${pirata.variable} ${bebasneue.variable} ${montserrat.variable} ${quantum.variable} antialiased  h-screen overflow-hidden flex flex-col`}
+        className={`${xurkit.variable} ${pirata.variable} ${bebasneue.variable} ${montserrat.variable} ${quantum.variable} ${baron.variable} ${bad.variable} antialiased  h-screen overflow-hidden flex flex-col`}
       >
         <TopNavBar/>
         <main className="flex-1 overflow-auto">

@@ -13,6 +13,9 @@
   --font-bebas: var(--font-bebas);
   --font-mont:var(--font-mont);
   --font-quantum:var(--font-quantum);
+  --font-baron:var(--font-baron);
+  --font-bad:var(--font-bad);
+
   --color-primary:#FF8F45
 }
 
@@ -38,5 +41,10 @@ body {
 }
 .anim:hover{
   scale:0.9;
+  cursor: pointer;
+}
+
+.cardanim{
+  transition: 0.3s ease-in-out;
   cursor: pointer;
 }
