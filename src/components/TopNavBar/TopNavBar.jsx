@@ -5,6 +5,7 @@ import TopNavBarBtn from './client/TopNavBarBtn'
 import tlogo from "@/assets/tlogo.png"
 import xlogo from "@/assets/xlogo.png"
 import TopNavBarConnectBtn from './client/TopNavBarConnectBtn'
+import IndividualTray from './client/IndividualTray'
 
 
 const TopNavBar = () => {
@@ -17,8 +18,10 @@ const TopNavBar = () => {
         </div>
         <p className='font-pirata text-3xl'>Mugiwara Pirates</p>
       </div>
-      
-      <div className='flex gap-5 items-center w-full justify-end'>
+      <div className='w-full flex justify-end'>
+        <IndividualTray/>
+      </div>
+      <div className='flex gap-5 items-center  justify-end'>
         <TopNavBarBtn/>
         <div className='flex items-center gap-6 '>
           <div className='w-6 anim'>
