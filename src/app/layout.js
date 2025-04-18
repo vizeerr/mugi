@@ -1,4 +1,4 @@
-import { Bebas_Neue, Geist, Geist_Mono, Montserrat, Pirata_One } from "next/font/google";
+import { Bebas_Neue, Montserrat, Pirata_One } from "next/font/google";
 import "./globals.css";
 import TopNavBar from "@/components/TopNavBar/TopNavBar";
 import localFont from 'next/font/local'
