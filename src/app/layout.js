@@ -51,7 +51,7 @@ export const baron = localFont({
 })
 
 export const bad = localFont({
-  src:'../fonts/bad.ttf',
+  src:'../fonts/bd.ttf',
   variable: '--font-bad',
   display: 'swap',
 })
