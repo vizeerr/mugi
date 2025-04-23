@@ -1,8 +1,8 @@
 import { Bebas_Neue, Montserrat, Pirata_One } from "next/font/google";
 import "./globals.css";
-import TopNavBar from "@/components/TopNavBar/TopNavBar";
 import localFont from 'next/font/local'
 ;
+import TopNavBar from "@/components/TopNavBar/TopNavBar";
 
 const pirata = Pirata_One({
   variable:"--font-pirata",
@@ -56,13 +56,13 @@ export const bad = localFont({
   display: 'swap',
 })
 
-export default function RootLayout({ children }) {
+export default function layout({ children }) {
   return (
     <html lang="en">
       <body
         className={`${xurkit.variable} ${pirata.variable} ${bebasneue.variable} ${montserrat.variable} ${quantum.variable} ${baron.variable} ${bad.variable} antialiased  h-screen overflow-hidden flex flex-col`}
       >
-        <TopNavBar/>
+      <TopNavBar/>
         <main className="flex-1 overflow-auto">
           {children}
         </main>

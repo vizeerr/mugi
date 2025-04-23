@@ -1,10 +1,11 @@
-import IndividualLayout from "@/components/individual/IndividualLayout";
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-   <div className="h-full px-13 pb-14 ">
-    <IndividualLayout/>
-   </div>
-  );
+    <div>
+      
+    </div>
+  )
 }
+
+export default page

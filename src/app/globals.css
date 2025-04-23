@@ -16,7 +16,7 @@
   --font-baron:var(--font-baron);
   --font-bad:var(--font-bad);
 
-  --color-primary:#FF8F45
+  --color-primary:#C8F051;
 }
 
 @media (prefers-color-scheme: dark) {
